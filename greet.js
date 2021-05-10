@@ -31,7 +31,7 @@ describe('this test', function () {
         greetInst.setName("Cinga")
         greetInst.setName("NZWAKI")
 
-        assert.deepEqual(greetInst.newMap(), { namhla: 0, nzwaki: 0, lebepe: 0, cinga: 0 });
+        assert.deepEqual(greetInst.newMap(), { namhla: 1, nzwaki: 1, lebepe: 0, cinga: 1 });
     });
     it('should return the number of people greeted, each person greeted only registering once', function () {
         let greetInst = greet();

@@ -9,6 +9,9 @@ function greet(existingNames) {
             nameMap[lowerParsedName] = 0;
             newNames = lowerParsedName;
         }
+        else {
+            nameMap[lowerParsedName]++
+        }
 
     }
 
